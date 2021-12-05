@@ -3,7 +3,7 @@ def solution3():
 
     with open("C:\\Users\\Carlv\\Downloads\\input3.txt") as f:
         list = f.readlines()
-
+        f.close()
     start = [0, 0]
     for v in list:
         if v.startswith("f"):
