@@ -1,4 +1,4 @@
-def solution5():
+def solution():
 
     with open("C:\\Users\\Carlv\\Downloads\\input4.txt") as f:
         list = f.readlines()
@@ -36,4 +36,4 @@ def solution5():
     print(result)
 
 
-solution5()
+solution()
