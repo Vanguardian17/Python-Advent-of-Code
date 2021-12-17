@@ -15,10 +15,7 @@ def solution():
             if (v[i] == "1"):
                 count1 += 1
 
-        if (count1 > count0):
-            answer = answer + "1"
-        if (count0 > count1):
-            answer = answer + "0"
+        answer += '1' if count1 > count0 else '0'  # ternaty statement
 
     answer2 = ""
 
@@ -29,10 +26,7 @@ def solution():
             answer2 = answer2 + "0"
 
     result = int(answer, 2) * int(answer2, 2)
-    print(answer)
-    print(int(answer, 2))
-    print(answer2)
-    print(int(answer2, 2))
+
     print(result)
 
 
